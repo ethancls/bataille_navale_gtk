@@ -1,5 +1,14 @@
 # Bataille navale contre ordinateur avec interface graphique (gtk) 
 
+## Compilation et lancement
+
+Pour installer gtk, aller sur https://www.gtk.org/docs/installations/ et suivre les instructions selon son OS.
+Après installation, dans le dossier source :
+```
+make
+./bataille.exe
+```
+
 ## Le jeu
 
 Après avoir lancer le jeu depuis le terminal, il faut appuyer sur le bouton Jouer pour lancer une partie. À chacun de nos coups l’adversaire jouera un coup aussi selon une stratégie probabiliste qui dépend de la difficulté sélectionnée, cette dernière peut être choisie en cliquant sur l’un des boutons « Normal » ou « Difficile ». 
